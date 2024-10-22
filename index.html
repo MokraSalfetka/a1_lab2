@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="search" placeholder="Search..." onkeyup="filterTasks()">
+        <ul id="task-list"></ul>
+        <div class="task-input">
+            <input type="text" id="new-task" placeholder="New task..." maxlength="255">
+            <input type="date" id="due-date">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

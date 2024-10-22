@@ -1,0 +1,45 @@
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+.container 
+{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="date"] 
+{
+    margin-right: 5px;
+    padding: 5px;
+}
+
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+li 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li input[type="text"], li input[type="date"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+li button {
+    margin-left: 5px;
+}
+
+
+mark 
+{
+    background-color: yellow;
+}
